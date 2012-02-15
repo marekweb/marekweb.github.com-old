@@ -1,5 +1,30 @@
-<html>
-<body>
-<h3>Testing GitHub Pages</h3>
+---
+layout: front
+title: Marek Zaluski
+---
+<div class="column-left">
+	<h2>Hello</h2>
+	<p>Reach me <a href="http://twitter.com/#!/marekweb" rel="me">on Twitter</a>, <a href="http://ca.linkedin.com/in/marekzaluski" rel="me">on LinkedIn</a>, and <a href="http://github.com/marekweb" rel="me">on Github</a>.</p>
+						<p>I contribute to <a href="http://startupifier.com/">Startupifier</a>, a group aiming to foster the Montreal tech startup community by involving students.</p>
+
+	<h2>Articles</h2>
+	<ol>
+	{% for post in site.posts %}
+	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ol>
+</div>
+
+<div class="column-right">
+	<h2>Projects</h2>
+	<p>Some projects that I've authored:</p>
+					
+	<p><a class="bold" href="http://github.com/marekweb/oak-php/">Oak PHP Framework</a> &mdash; Foundational framework for PHP.</p>
+					
+	<p><a class="bold" href="http://marekweb.com/plasmium/">Plasmium</a> &mdash; Mobile game app for Windows Phone 7 developed in C# on the XNA platform.</p>
+					
+	<p><a class="bold" href="http://github.com/marekweb/blowphp">BlowPHP</a> &mdash; Modern &amp; secure PHP password hashing library based on <a href="http://www.openwall.com/phpass/">phpass</a>.</p>
+</div>
+<div style="clear:both"></div>
 </body>
 </html>

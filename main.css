@@ -1,0 +1,96 @@
+a:link, a:visited, a:active {
+	color: #2020A0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2020A0;
+	text-decoration: underline;
+}
+
+h1, h2 {
+	font-family: "Lato", Arial, sans-serif;
+	font-weight: 900;
+}
+
+
+body {
+	margin: 0;
+	background-color: #f0f0f0;
+	color: #181818;
+	font-size: 17px;
+	font-family: "Arial", Arial, sans-serif;
+}
+
+code {
+	font-family: "Inconsolata";
+}
+
+.header-section {
+	background-color: #c0c0c0;
+}
+
+.article .header-section {
+	padding: 80px 0 1px 0;
+}
+
+.front .header-section {
+	padding: 175px 0 1px 0;	
+}
+
+.stripe-section {
+	background-color: #303030;
+	color: #f8f8f8;
+	padding: 1px 0;
+	margin-bottom: 40px;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+
+.front .stripe {
+	margin-bottom: 20px;
+}
+
+.front p.desc {
+	margin-top: 0;
+	margin-bottom: 22px;
+}
+
+.front h2, .front p, .front ul, .front ol {
+	margin: 14px 0;
+}
+.article h2, .article p, .article ul, .article ol  {
+	margin: 24px 0;
+}
+
+
+
+pre {
+	margin: 38px 0;
+	margin-right: -80px;
+}
+
+
+.footer {
+	color: rgba(0,0,0,0.5);
+	font-size: 80%;
+	text-align: center;
+	margin: 80px 0;
+}
+
+.article .page {
+	width: 520px;
+	margin: 0 auto;
+}
+.front .page {
+	width: 840px;
+	margin: 0 auto;
+}
+.column-left, .column-right {
+	float: left;
+	width: 400px;
+}
+
+.column-left {
+	margin-right: 40px;
+}
