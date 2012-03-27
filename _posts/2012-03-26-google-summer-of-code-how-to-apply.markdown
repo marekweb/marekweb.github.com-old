@@ -3,9 +3,10 @@ layout: article
 title: "Google Summer of Code: How to Apply & What to Expect" 
 ---
 
-The [Google Summer of Code](http://www.google-melange.com/gsoc/homepage/google/gsoc2012) is an remarkable opportunity for students. The premise of the program is simple: you spend a summer working on an open-source project online. And you receive mentoring and a financial stipend while you do it.
 
-I participated in the GSoC in summer 2011 and I had a very rewarding experience. It's a bit of a hidden jewel of summer student work (in the software field, at least). The experience you get from a summer of working on a prominent open-source software project can be extremely valuable.
+When I first heard of the [Google Summer of Code](http://www.google-melange.com/gsoc/homepage/google/gsoc2012) I was surprised I hadn't heard of it earlier. The premise of the program is simple: you spend a summer working on an open-source project online. And you receive mentoring and a financial stipend while you do it. The one condition is being a student over the age of 18.
+
+I participated in the GSoC in summer 2011 and I had a very rewarding experience. It's a bit of a hidden jewel of summer student work (in the software field, at least). The experience you get from a summer of working on a prominent open-source software project can be extremely valuable, and it will definitely catch the eye of your future prospective employers.
 
 My own project involved prototyping a HTML5 application for the [Cytoscape Web](http://cytoscapeweb.cytoscape.org/) project, and I had the opportunity to work with some remarkably talented mentors --- Christian Tannus Lopes and Max Franz --- from the [Bader lab](http://baderlab.org/) which specializes in computational biology.
 
