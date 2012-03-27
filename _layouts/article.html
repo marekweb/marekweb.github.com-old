@@ -19,12 +19,14 @@ layout: main
 		<div class="page">
 			<div class="body-text">
 				{{ content }}
+				{% if site.related_posts != empty %}
 				<h2>More to read</h2>
-					<ol>
-					{% for post in site.related_posts limit 5 %}
+				<ol>
+				{% for post in site.related_posts limit 5 %}
 					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-					{% endfor %}
-					</ol>
+				{% endfor %}
+				</ol>
+				{% endif %}
 			</div>
 			<p class="footer">&copy; 2012 Marek Zaluski</p>
 		</div>
